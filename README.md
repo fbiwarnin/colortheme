@@ -2,14 +2,16 @@ colortheme
 ==========
 
 Color Theme for VIM/Emacs based on darkmate theme from gmate
-Installation
+
+Darkmate for GVIM
 ==========
 
-## (G)VIM:
+## Preview
 
 ![VIM Preview](https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-vim.png)
+## Installation
 
-```
+```bash
 git clone https://github.com/fbiwarnin/colortheme.git
 cd colortheme
 sudo cp darkmate.vim /usr/share/vim/vim73/colors/
@@ -20,11 +22,13 @@ cat << EOF >> $HOME/.vimrc
 EOF
 ```
 
-## Emacs :
-
-[![ Emacs Preview](https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-emacs.png)]
+Darkmate for Emacs 
+==========
+## Preview
+![Emacs Preview](https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-emacs.png)
 
 ```lisp
+
 (load-file "~/.emacs.d/color-theme/themes/darkmate-theme.el")
 (color-theme-darkmate)
 
