@@ -6,7 +6,7 @@ Installation
 ==========
 (G)VIM:
 ==
-[darkmate-vim]:https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-vim.png
+[darkmate-vim]: https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-vim.png "Gvim with Darkmate"
 
 ```
 git clone https://github.com/fbiwarnin/colortheme.git
@@ -22,7 +22,8 @@ EOF
 
 Emacs :
 ==
-[darkmate-emacs]:https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-emacs.png
+
+[darkmate-emacs]: https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-emacs.png "Aquamacs with Darkmate"
 
 ```lisp
 (load-file "~/.emacs.d/color-theme/themes/darkmate-theme.el")
