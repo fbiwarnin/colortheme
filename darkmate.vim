@@ -13,47 +13,47 @@ endif
 
 let colors_name = "darkmate"
 
-hi Normal ctermbg=DarkGrey ctermfg=White guifg=#E6E1DC guibg=#55534E gui=none
+hi Normal	guifg=#E6E1DC	guibg=#55534E	gui=none	ctermfg=255	ctermbg=237
+" Groups for syntax highlighting
+hi Constant	guifg=#ffa0a0	guibg=#fce94f	gui=none	ctermfg=201
+hi Comment	guifg=#bb66ff			gui=none	ctermfg=99
+hi Identifier	guifg=#D0D0FF			gui=none	ctermfg=190
+hi PreProc	guifg=#A5C261			gui=none	ctermfg=202
+hi Statement	guifg=#ff9900			gui=none	ctermfg=154
+hi Function	guifg=#9e91ff			gui=none	ctermfg=155
+hi String	guifg=#96ff00			gui=none	ctermfg=152
+hi Number	guifg=#00c99b			gui=none	ctermfg=87
+hi Type		guifg=#D0D0FF			gui=none	ctermfg=47
+hi Ignore	guifg=#404040			gui=none	ctermfg=236
+hi LineNr	guifg=#858179	guibg=#4B4B4B	gui=none	ctermfg=252	ctermbg=235
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
-hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=Red guifg=White gui=none
-hi IncSearch term=reverse cterm=reverse  gui=none
-hi ModeMsg   gui=none
-hi StatusLine  gui=none
-hi StatusLineNC term=reverse cterm=reverse  gui=none
-hi VertSplit term=reverse cterm=reverse  gui=none
-hi Visual term=reverse ctermbg=black guibg=#5A647E  gui=none
-hi VisualNOS term=underline,bold cterm=underline,bold  gui=none
-hi DiffText term=reverse cterm=bold ctermbg=Red  guibg=Red gui=none
-hi Cursor guibg=Green guifg=#FFFFFF gui=none
-hi lCursor guibg=Cyan guifg=Black gui=none
-hi Directory term=bold ctermfg=LightCyan guifg=Cyan gui=none
-hi LineNr term=underline ctermfg=Yellow guibg=#4B4B4B guifg=#858179 gui=none
-hi MoreMsg term=bold ctermfg=LightGreen  guifg=SeaGreen gui=none
-hi NonText term=bold ctermfg=LightBlue  guifg=LightBlue guibg=grey30 gui=none
-hi Question term=standout ctermfg=LightGreen  guifg=Green gui=none
-hi Search term=reverse ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black gui=none
-hi SpecialKey term=bold ctermfg=LightBlue guifg=Cyan gui=none
-hi Title term=bold ctermfg=LightMagenta  guifg=Magenta gui=none
-hi WarningMsg term=standout ctermfg=LightRed guifg=Red gui=none
-hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black gui=none
-hi Folded term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue gui=none
-hi FoldColumn term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=Grey guifg=DarkBlue gui=none
-hi DiffAdd term=bold ctermbg=DarkBlue guibg=DarkBlue gui=none
-hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta gui=none
-hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan  guifg=Blue guibg=DarkCyan gui=none
-hi CursorColumn term=reverse ctermbg=Black guibg=grey40 gui=none
-hi CursorLine term=underline cterm=underline guibg=#333435 gui=none
-
-" Groups for syntax highlighting
-hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=#fce94f gui=none
-hi Comment  term=NONE guifg=#bb66ff gui=none
-hi Identifier term=NONE guifg=#D0D0FF gui=none
-hi PreProc  	term=NONE guifg=#A5C261 gui=none
-hi Statement 	term=NONE guifg=#ff9900 gui=none
-hi Function	term=NONE guifg=#9e91ff gui=none
-hi String	term=NONE guifg=#96ff00 gui=none
-hi Number	term=NONE guifg=#00c99b gui=none
-hi Ignore ctermfg=DarkGrey guifg=#404040 gui=none
+hi ErrorMsg	guifg=White	guibg=Red	gui=none
+hi IncSearch					gui=none
+hi ModeMsg					gui=none
+hi StatusLine					gui=none
+hi StatusLineNC					gui=none
+hi VertSplit					gui=none
+hi Visual			guibg=#5A647E	gui=none
+hi VisualNOS					gui=none
+hi DiffText			guibg=Red	gui=none
+hi Cursor	guifg=#FFFFFF	guibg=Green	gui=none
+hi lCursor	guifg=Black	guibg=Cyan	gui=none
+hi Directory	guifg=Cyan			gui=none
+hi MoreMsg	guifg=SeaGreen			gui=none
+hi NonText	guifg=LightBlue	guibg=grey30	gui=none
+hi Question	guifg=Green			gui=none
+hi Search	guibg=Yellow	guifg=Black	gui=none
+hi SpecialKey	guifg=Cyan			gui=none
+hi Title	guifg=Magenta			gui=none
+hi WarningMsg	guifg=Red			gui=none
+hi WildMenu	guifg=Black	guibg=Yellow	gui=none
+hi Folded	guifg=DarkBlue	guibg=LightGrey	gui=none
+hi FoldColumn	guifg=DarkBlue	guibg=Grey	gui=none
+hi DiffAdd			guibg=DarkBlue	gui=none
+hi DiffChange			guibg=DarkMagenta	gui=none
+hi DiffDelete	guifg=Blue	guibg=DarkCyan	gui=none
+hi CursorColumn			guibg=grey40	gui=none
+hi CursorLine			guibg=#333435	gui=none
 
 " vim: sw=2
