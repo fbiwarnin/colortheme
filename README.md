@@ -7,7 +7,7 @@ Installation
 
 ## (G)VIM:
 
-[![VIM Preview](https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-vim.png)]
+![VIM Preview](https://raw.github.com/fbiwarnin/colortheme/master/preview/darkmate-vim.png)
 
 ```
 git clone https://github.com/fbiwarnin/colortheme.git
